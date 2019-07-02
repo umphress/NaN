@@ -1,9 +1,8 @@
 applications:
-- path: .
-  memory: 128M
-  instances: 1
-  domain: mybluemix.net
-  name: nan 
-  host: nan
-  disk_quota: 1024M
-  buildpack: python_buildpack 
+  - path: .
+    name: NaN
+    environment_json: {}
+    memory: 128M
+    instances: 1
+    disk_quota: 1024M
+    services: []
