@@ -1,2 +1,2 @@
-python=3.7
-Django=2.2.3
+python >= 3.7.0
+Django >= 2.2.1
